@@ -1817,8 +1817,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 270bcf94b57094a39ba559c0618e8d65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cube: {fileID: 1928659407}
+  cubeRenderer: {fileID: 1928659409}
   matOfObject: {fileID: 2100000, guid: d26ec2616a6f34f7f8b1fa82d27813ef, type: 2}
-  newColor: {r: 0, g: 0, b: 0, a: 0}
+  newColor: {r: 1, g: 0.5987655, b: 0, a: 0}
+  colors:
+  - {r: 1, g: 0.09019607, b: 0.8232462, a: 0}
+  - {r: 0.23113209, g: 1, b: 0.92763597, a: 0}
+  - {r: 1, g: 0.94552356, b: 0.2688679, a: 0}
+  - {r: 0.3615272, g: 1, b: 0.2688679, a: 0}
+  - {r: 0, g: 0.039997578, b: 1, a: 0}
+  - {r: 0, g: 1, b: 0.5208678, a: 0}
+  - {r: 0.6162491, g: 0, b: 1, a: 0}
   colorChange: 103
 --- !u!1 &2017818031
 GameObject:
