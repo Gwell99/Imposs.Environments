@@ -3,27 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 public class changeColor : MonoBehaviour
 {
+    public GameObject cube;
+    public Renderer cubeRenderer;
     public Material matOfObject;
-    public Color newColor;
+    [SerializeField] private Color newColor;
+    [SerializeField] private Color[]colors;
     public KeyCode colorChange;
     void Start()
     {
-        matOfObject.color = Color.black;
+        cubeRenderer = cube.GetComponent<Renderer>();
     }
 
 
     void Update()
     {
-        if(Input.GetKeyDown(colorChange))
+        if (Input.GetKeyDown(colorChange))
         {
-            if (matOfObject.color == Color.black)
-            {
-                matOfObject.color = newColor;
-            }
-            else
-            {
-                matOfObject.color = Color.black;
-            }
+            cubeRenderer.material.color = colors[Random.Range(0, 6)];
         }
     }
-}
+    }
+
+
+ 
