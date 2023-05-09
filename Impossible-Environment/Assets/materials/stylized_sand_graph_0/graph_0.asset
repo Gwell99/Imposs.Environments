@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
   m_Name: graph_0
   m_EditorClassIdentifier: 
-  AssetPath: Assets/materials/stylized_sand.sbsar
-  OutputPath: Assets/materials/stylized_sand_graph_0
+  AssetPath: Assets/Materials/stylized_sand.sbsar
+  OutputPath: Assets/Materials/stylized_sand_graph_0
   RawData: {fileID: -244192453324840774, guid: bc20abf042d5a4238b2ce20e43b57968, type: 3}
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
-  GUID: c5b16562-96d2-4931-9f78-f21d92ae5a39
+  GUID: e93220db-e1fb-4d42-81ba-3934ef742670
   Index: 0
   Input:
-  - rid: 8281287588962893824
-  - rid: 8281287588962893825
-  - rid: 8281287588962893826
+  - rid: 3914136267277467652
+  - rid: 3914136267277467653
+  - rid: 3914136267277467654
   Output:
   - Index: 0
     VirtualOutputIndex: 6
@@ -140,7 +140,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 8281287588962893824
+    - rid: 3914136267277467652
       type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 0
@@ -159,7 +159,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 8281287588962893825
+    - rid: 3914136267277467653
       type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 1
@@ -181,7 +181,7 @@ MonoBehaviour:
           LabelTrue: 
           EnumValueCount: 0
           EnumValues: []
-    - rid: 8281287588962893826
+    - rid: 3914136267277467654
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 2

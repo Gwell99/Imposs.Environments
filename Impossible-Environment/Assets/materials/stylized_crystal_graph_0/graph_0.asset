@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
   m_Name: graph_0
   m_EditorClassIdentifier: 
-  AssetPath: Assets/materials/stylized_crystal.sbsar
-  OutputPath: Assets/materials/stylized_crystal_graph_0
+  AssetPath: Assets/Materials/stylized_crystal.sbsar
+  OutputPath: Assets/Materials/stylized_crystal_graph_0
   RawData: {fileID: -244192453324840774, guid: aa29530a9fc22480eb5b017e34fd4aa4, type: 3}
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
-  GUID: 34888181-9ded-4363-8d5d-b709ff9c0ed9
+  GUID: b8c49ea6-e96c-4ee6-85ae-c5a07523577f
   Index: 0
   Input:
-  - rid: 8281287588962893827
-  - rid: 8281287588962893828
-  - rid: 8281287588962893829
-  - rid: 8281287588962893830
+  - rid: 3914136267277467648
+  - rid: 3914136267277467649
+  - rid: 3914136267277467650
+  - rid: 3914136267277467651
   Output:
   - Index: 0
     VirtualOutputIndex: 7
@@ -157,7 +157,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 8281287588962893827
+    - rid: 3914136267277467648
       type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 8281287588962893828
+    - rid: 3914136267277467649
       type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 1
@@ -198,7 +198,7 @@ MonoBehaviour:
           LabelTrue: 
           EnumValueCount: 0
           EnumValues: []
-    - rid: 8281287588962893829
+    - rid: 3914136267277467650
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 2
@@ -219,7 +219,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 8281287588962893830
+    - rid: 3914136267277467651
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 3
