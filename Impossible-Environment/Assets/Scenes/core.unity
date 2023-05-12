@@ -1543,8 +1543,8 @@ GameObject:
   m_Component:
   - component: {fileID: 694908634}
   - component: {fileID: 694908633}
-  - component: {fileID: 694908635}
   - component: {fileID: 694908636}
+  - component: {fileID: 694908637}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1586,34 +1586,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &694908635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 694908632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83fbf9a5976d54e0ead1b8104e7c44eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 7
-  groundDrag: 5
-  jumpForce: 12
-  jumpCooldown: 0.25
-  airMultiplier: 0.4
-  wallrunSpeed: 8.5
-  walkSpeed: 0
-  sprintSpeed: 0
-  jumpKey: 32
-  playerHeight: 2
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 64
-  orientation: {fileID: 941437438}
-  state: 0
-  wallrunning: 0
 --- !u!114 &694908636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1635,11 +1607,43 @@ MonoBehaviour:
   wallRunForce: 200
   wallClimbSpeed: 3
   maxWallRunTime: 1.5
-  upwardsRunKey: 304
-  downwardsRunKey: 306
+  upwardsRunKey: 117
+  downwardsRunKey: 110
   wallCheckDistance: 0.7
   minJumpHeight: 2
   orientation: {fileID: 941437438}
+--- !u!114 &694908637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694908632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7677c6d9ba8f94d3e95665ac0c7f1560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 7
+  sprintSpeed: 10
+  wallrunSpeed: 12
+  groundDrag: 5
+  jumpForce: 12
+  jumpCooldown: 0.25
+  airMultiplier: 0.4
+  crouchSpeed: 5
+  crouchYScale: 0.5
+  jumpKey: 32
+  sprintKey: 304
+  crouchKey: 306
+  playerHeight: 2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  maxSlopeAngle: 0
+  orientation: {fileID: 941437438}
+  state: 0
+  wallrunning: 0
 --- !u!1001 &823463484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2029,7 +2033,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1004129134}
-  m_LocalRotation: {x: 0.000000004888227, y: 0.9587965, z: -0.28409383, w: 0.000000016497422}
+  m_LocalRotation: {x: 0.000000004888226, y: 0.9587965, z: -0.28409383, w: 0.000000016497413}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2760,7 +2764,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668313714}
-  m_LocalRotation: {x: 0.000000009776454, y: 0.9587965, z: -0.28409386, w: 0.000000032994837}
+  m_LocalRotation: {x: 0.000000009776454, y: 0.9587965, z: -0.28409386, w: 0.000000032994834}
   m_LocalPosition: {x: 0, y: 2.5, z: -5.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3205,7 +3209,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976918618}
-  m_LocalRotation: {x: -0.0000000019644877, y: 0.9735805, z: -0.22834422, w: -0.000000008375894}
+  m_LocalRotation: {x: -0.0000000019644886, y: 0.9735805, z: -0.22834422, w: -0.000000008375898}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
