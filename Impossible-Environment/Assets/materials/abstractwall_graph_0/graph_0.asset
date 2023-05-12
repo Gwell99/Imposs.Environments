@@ -18,10 +18,10 @@ MonoBehaviour:
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
-  GUID: 6d2e0990-0cef-4337-af7b-5fbc19c8965d
+  GUID: 76b2f782-4234-441e-ba0f-b86c30620e5c
   Index: 0
   Input:
-  - rid: 8281287588962893831
+  - rid: 8281287672769282048
   Output:
   - Index: 0
     VirtualOutputIndex: 7
@@ -146,14 +146,15 @@ MonoBehaviour:
   GenerateAllMipmaps: 1
   OutputMaterial: {fileID: 2100000, guid: e1ce23725dafb4e34809a658d849ad0d, type: 2}
   DefaultPreset: " <sbspreset pkgurl=\"pkg://AbstractWalll\" label=\"\" >\n  <presetinput
-    identifier=\"$outputsize\" uid=\"2192428624\" type=\"8\" value=\"10,10\" />\n</sbspreset>\n"
+    identifier=\"$outputsize\" uid=\"2192428624\" type=\"8\" value=\"10,10\" />\n
+    </sbspreset>\n"
   MaterialShader: Standard
   RenderTextures: 0
   OutputRemaped: 0
   references:
     version: 2
     RefIds:
-    - rid: 8281287588962893831
+    - rid: 8281287672769282048
       type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 0
