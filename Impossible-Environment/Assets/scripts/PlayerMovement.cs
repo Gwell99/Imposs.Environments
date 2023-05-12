@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float walkSpeed;
     public float sprintSpeed;
     public float wallrunSpeed;
+    public float climbSpeed;
 
     public float groundDrag;
 
@@ -32,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Ground Check")]
     public float playerHeight;
     public LayerMask whatIsGround;
-    bool grounded;
+    public bool grounded;
 
     [Header("Slope Handling")]
     public float maxSlopeAngle;
@@ -56,10 +57,12 @@ public class PlayerMovement : MonoBehaviour
         sprinting,
         crouching,
         wallrunning,
+        climbing,
         air
     }
 
     public bool wallrunning;
+    public bool climbing;
 
     private void Start()
     {
@@ -122,14 +125,20 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void StateHandler()
-    {   //wallrunning
-        if (wallrunning)
+    {   //climbing
+        if (climbing)
+        {
+            state = MovementState.climbing;
+            moveSpeed = climbSpeed;
+        }
+        //wallrunning
+        else if (wallrunning)
         {
             state = MovementState.wallrunning;
             moveSpeed = wallrunSpeed;
         }
         // Mode - Crouching
-        if (Input.GetKey(crouchKey))
+        else if (Input.GetKey(crouchKey))
         {
             state = MovementState.crouching;
             moveSpeed = crouchSpeed;
