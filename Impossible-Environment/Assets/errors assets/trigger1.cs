@@ -4,21 +4,24 @@ using UnityEngine;
 
 public class trigger1 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public GameObject uiElement; // the UI element to show
+    [SerializeField] private Canvas customImage;
 
-    void Start()
+    void OnTriggerEnter(Collider other)
     {
-        uiElement.SetActive(false); // hide the UI element by default
+        if (other.CompareTag("Player"))
+        {
+            customImage.enabled = true;
+        }
+            
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerExit(Collider other)
     {
-        if (collision.gameObject.tag == "Player")
+        if (other.CompareTag("Player"))
         {
-            Debug.Log("hi");
-            uiElement.SetActive(true); // show the UI element when the player collides with the object
+            customImage.enabled = false;
         }
+
     }
 
 }
