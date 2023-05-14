@@ -8,7 +8,7 @@ public class leavevirus : MonoBehaviour
     void Update()
     {
         // Check if the "K" key is pressed
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             // Load the new scene
             SceneManager.LoadScene("MainScene");
