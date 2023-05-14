@@ -53,7 +53,7 @@ public class AsciiArtFilter : MonoBehaviour {
         if (frameCounter >= FRAMES_PER_CHANGE)
         {
             // Set heightSegment to a random value between 1 and 100
-            heightSegment = Random.Range(12, 50);
+            heightSegment = Random.Range(20, 60);
             frameCounter = 0; // reset the counter
         }
         else
