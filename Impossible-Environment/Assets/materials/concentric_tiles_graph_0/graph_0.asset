@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
   m_Name: graph_0
   m_EditorClassIdentifier: 
-  AssetPath: Assets/materials/concentric_tiles.sbsar
-  OutputPath: Assets/materials/concentric_tiles_graph_0
+  AssetPath: Assets/Materials/concentric_tiles.sbsar
+  OutputPath: Assets/Materials/concentric_tiles_graph_0
   RawData: {fileID: -244192453324840774, guid: 14a7150943f0c4f1f83c0407a54a1896, type: 3}
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
-  GUID: 153afa63-1b38-4648-ba5f-b64f35bd7464
+  GUID: 3b1aa82c-a954-485c-b830-522308228abb
   Index: 0
   Input:
-  - rid: 8281287681419771956
-  - rid: 8281287681419771957
+  - rid: 8599213703940538421
+  - rid: 8599213703940538422
   Output:
   - Index: 0
     VirtualOutputIndex: 6
@@ -139,7 +139,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 8281287681419771956
+    - rid: 8599213703940538421
       type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 0
@@ -158,7 +158,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 8281287681419771957
+    - rid: 8599213703940538422
       type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 1

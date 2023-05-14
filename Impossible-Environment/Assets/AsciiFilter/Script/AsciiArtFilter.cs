@@ -19,7 +19,8 @@ public class AsciiArtFilter : MonoBehaviour {
 	public float heightSegment = 40;
     // Use this for initialization
     private Material mat;
-	protected void Start ()
+
+    protected void Start ()
 	{
 		if (!SystemInfo.supportsImageEffects) {
 			enabled = false;
@@ -42,6 +43,9 @@ public class AsciiArtFilter : MonoBehaviour {
         {
             mat.shader = colorType == ColorType.Mono ? shaderMono : shaderColor;
         }
+
+        mat.color = new Color(mat.color.r, mat.color.g, mat.color.b, 0.5f); // Change 0.5f to your desired opacity
+
         Camera cam = GetComponent<Camera>();
         mat.SetTexture("_SampleTex", sample);
 
@@ -49,7 +53,7 @@ public class AsciiArtFilter : MonoBehaviour {
         if (frameCounter >= FRAMES_PER_CHANGE)
         {
             // Set heightSegment to a random value between 1 and 100
-            heightSegment = Random.Range(20, 50);
+            heightSegment = Random.Range(12, 50);
             frameCounter = 0; // reset the counter
         }
         else

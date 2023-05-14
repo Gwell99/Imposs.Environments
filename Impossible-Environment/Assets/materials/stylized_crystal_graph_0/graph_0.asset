@@ -18,6 +18,7 @@ MonoBehaviour:
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
+<<<<<<< Updated upstream
   GUID: fa5109f6-1cc8-4455-87cb-643212e5585c
   Index: 0
   Input:
@@ -25,6 +26,15 @@ MonoBehaviour:
   - rid: 8281287672769282050
   - rid: 8281287672769282051
   - rid: 8281287672769282052
+=======
+  GUID: 2975f856-3a61-48c8-8715-7fc525c5ac89
+  Index: 0
+  Input:
+  - rid: 8599213691801960448
+  - rid: 8599213691801960449
+  - rid: 8599213691801960450
+  - rid: 8599213691801960451
+>>>>>>> Stashed changes
   Output:
   - Index: 0
     VirtualOutputIndex: 7
@@ -157,7 +167,11 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+<<<<<<< Updated upstream
     - rid: 8281287672769282049
+=======
+    - rid: 8599213691801960448
+>>>>>>> Stashed changes
       type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 0
@@ -176,7 +190,11 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
+<<<<<<< Updated upstream
     - rid: 8281287672769282050
+=======
+    - rid: 8599213691801960449
+>>>>>>> Stashed changes
       type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 1
@@ -198,7 +216,11 @@ MonoBehaviour:
           LabelTrue: 
           EnumValueCount: 0
           EnumValues: []
+<<<<<<< Updated upstream
     - rid: 8281287672769282051
+=======
+    - rid: 8599213691801960450
+>>>>>>> Stashed changes
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 2
@@ -219,7 +241,11 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
+<<<<<<< Updated upstream
     - rid: 8281287672769282052
+=======
+    - rid: 8599213691801960451
+>>>>>>> Stashed changes
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 3
