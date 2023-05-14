@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
   m_Name: graph_0
   m_EditorClassIdentifier: 
-  AssetPath: Assets/Materials/abstractwall.sbsar
-  OutputPath: Assets/Materials/abstractwall_graph_0
+  AssetPath: Assets/materials/abstractwall.sbsar
+  OutputPath: Assets/materials/abstractwall_graph_0
   RawData: {fileID: -244192453324840774, guid: b279274ca9ea24680a175f1b405d734b, type: 3}
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
-  GUID: fd35026c-5136-4f35-b4f5-bdd378a03ac2
+  GUID: b518c852-c36a-4b0c-8b2b-1a6f91323de3
   Index: 0
   Input:
-  - rid: 8599213703940538420
+  - rid: 8281287681419772010
   Output:
   - Index: 0
     VirtualOutputIndex: 7
@@ -154,7 +154,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 8599213703940538420
+    - rid: 8281287681419772010
       type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 0
