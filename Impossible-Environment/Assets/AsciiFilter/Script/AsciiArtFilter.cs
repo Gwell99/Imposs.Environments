@@ -4,7 +4,8 @@ using System.Collections;
 [RequireComponent(typeof(Camera))]
 [ExecuteInEditMode]
 public class AsciiArtFilter : MonoBehaviour {
-	public enum ColorType
+
+    public enum ColorType
 	{
 		Mono,
 		Color
@@ -16,8 +17,8 @@ public class AsciiArtFilter : MonoBehaviour {
 	public int sampleNumber = 8;
 	[Range(1,100)]
 	public float heightSegment = 40;
-	// Use this for initialization
-	private Material mat;
+    // Use this for initialization
+    private Material mat;
 	protected void Start ()
 	{
 		if (!SystemInfo.supportsImageEffects) {
@@ -48,7 +49,7 @@ public class AsciiArtFilter : MonoBehaviour {
         if (frameCounter >= FRAMES_PER_CHANGE)
         {
             // Set heightSegment to a random value between 1 and 100
-            heightSegment = Random.Range(12, 50);
+            heightSegment = Random.Range(20, 50);
             frameCounter = 0; // reset the counter
         }
         else
