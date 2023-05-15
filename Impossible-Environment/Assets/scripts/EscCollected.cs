@@ -10,6 +10,14 @@ public class EscCollected : MonoBehaviour
     public float delayTime = 2f; // the delay time in seconds before the UI elements appear
 
     private int sceneCount = 0; // the number of target scenes entered so far
+    private bool uiActivated = false; // flag to indicate whether the UI elements have been activated
+
+    private void Start()
+    {
+        // Deactivate the UI elements at start
+        uiText.SetActive(false);
+        uiButton.SetActive(false);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -26,11 +34,12 @@ public class EscCollected : MonoBehaviour
                 }
             }
 
-            // if all target scenes have been entered, activate the UI elements and load the next scene
-            if (sceneCount == targetScenes.Length)
+            // if all target scenes have been entered and the UI elements have not been activated yet, activate them
+            if (sceneCount == targetScenes.Length && !uiActivated)
             {
                 // activate the UI elements after the specified delay time
                 Invoke("ActivateUI", delayTime);
+                uiActivated = true;
             }
         }
     }
