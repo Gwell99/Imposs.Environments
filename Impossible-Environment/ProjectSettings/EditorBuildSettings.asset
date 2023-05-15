@@ -6,11 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Opening/OPENING.unity
+    guid: 8e015cdddeefb40e6976f2ea04ab43ba
+  - enabled: 1
     path: Assets/Scenes/ending-laptop.unity
     guid: 72f22c9062b4d44309af7553ee190dec
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/2D photoAlbum.unity
+    guid: 31840bf6374954d69857bc2924b57c50
   - enabled: 1
     path: Assets/Scenes/VirusScene.unity
     guid: 7a969fbcc0ace4b7ca672d0eb9395ca4
@@ -29,6 +35,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/tunnel/mainToPsroom.unity
     guid: ea666b21f98d247f486e7d25f4f2cb3b
+  - enabled: 1
+    path: Assets/Scenes/help.unity
+    guid: 99ae6ccdee0fb4276a176da1590ffc50
+  - enabled: 1
+    path: Assets/Scenes/ending.unity
+    guid: 382e19906515047708e50e8d0102c35f
   - enabled: 1
     path: Assets/Scenes/intro-laptop 1.unity
     guid: d860b4024ccf9468c91865f6205a960d
