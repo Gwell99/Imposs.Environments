@@ -21,9 +21,15 @@ EditorBuildSettings:
     path: Assets/Scenes/PSroom.unity
     guid: 05b8346c533ea4997bceac6876beb35e
   - enabled: 1
+    path: Assets/Scenes/tunnel/maintoVirus.unity
+    guid: 02550c8315e7a45e5a9450ba2ca92e35
+  - enabled: 1
     path: Assets/Scenes/tunnel/mainToPsroom.unity
     guid: ea666b21f98d247f486e7d25f4f2cb3b
   - enabled: 1
-    path: Assets/Scenes/tunnel/tunnelToCoreRoom.unity
+    path: Assets/Scenes/tunnel/mainToTexts.unity
+    guid: c4f132c8c82fd46889554faa1a168e90
+  - enabled: 1
+    path: Assets/Scenes/tunnel/mainToCore.unity
     guid: 6eab1db7496884024bd7bb5d7f4e67c2
   m_configObjects: {}
