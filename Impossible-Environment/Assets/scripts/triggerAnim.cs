@@ -5,7 +5,7 @@ public class triggerAnim : MonoBehaviour
 {
     public PlayableDirector timelineToPlay;
     public GameObject uiText;
-    public float uiTextDelay = 17f; // Delay time in seconds
+    public float uiTextDelay = 5f; // Delay time in seconds
 
     private bool hasPlayed = false;
 
