@@ -10370,7 +10370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a99c2919753bc46e89b6d188f7dcf669, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: MainScene
+  sceneToLoad: intro-laptop 1
 --- !u!1 &1778833476
 GameObject:
   m_ObjectHideFlags: 0
