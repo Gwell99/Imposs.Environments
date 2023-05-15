@@ -3419,7 +3419,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press Enter to exit Messages
+  m_text: Press S to exit Messages
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 36edad6536e48460eaf39520f8ec2847, type: 2}
   m_sharedMaterial: {fileID: -2135587691971206044, guid: 36edad6536e48460eaf39520f8ec2847, type: 2}
@@ -5503,7 +5503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367483ac44ca948b2b540b791300ce7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyToPress: 13
+  keyToPress: 115
   sceneToLoad: MainScene
 --- !u!4 &1710830661
 Transform:
